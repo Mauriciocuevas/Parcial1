@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace MVC.Models
+namespace API.Models
 {
     public class DataContext:DbContext
     {
@@ -9,6 +9,6 @@ namespace MVC.Models
 
         }
 
-        public System.Data.Entity.DbSet<MVC.Models.Friend> Friends { get; set; }
+       
     }
 }
